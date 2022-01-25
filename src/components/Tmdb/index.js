@@ -62,9 +62,9 @@ export default {
           },
           {
             slug: "documentary",
-            title: "Documentary",
+            title: "Science Fiction",
             items: await basicFetch(
-              `/discover/movie?with_genres=99&language=en-US&api_key=${API_KEY}`
+              `/discover/movie?with_genres=878-science-fiction&language=en-US&api_key=${API_KEY}`
             ),
           },
         ];
