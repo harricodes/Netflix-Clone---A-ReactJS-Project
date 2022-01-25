@@ -43,7 +43,7 @@ export default {
             slug: "comedy",
             title: "Comedy",
             items: await basicFetch(
-              `/discover/movie?with_genres=28&language=en-US&api_key=${API_KEY}`
+              `/discover/movie?with_genres=35-comedy&language=en-US&api_key=${API_KEY}`
             ),
           },
           {
